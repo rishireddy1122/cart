@@ -1,4 +1,5 @@
-// import { setupStore } from "../store";
+import { setupStore } from "./store.js"
+import { setupShoppingCart } from "./shoppingCart.js"
 
-
-console.log("hi");
+setupStore()
+setupShoppingCart()
